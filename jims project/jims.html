@@ -1,0 +1,349 @@
+<html>
+<head>
+		<title>JIMS</title>
+				<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+				<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+				<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+				<meta name="HandheldFriendly" content="true">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+
+		<script>
+		function login()
+	{
+	var uname = document.getElementById("usname").value;
+	var pwd = document.getElementById("pwd1").value;
+	var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	if(uname =='')
+	{
+	alert("PLEASE ENTER YOUR NAME");
+	}
+	else if(pwd=='')
+	{
+	alert("PLEASE ENTER PASSWORD");
+	}
+	else if(!filter.test(uname))
+	{
+	alert("ENTER VALID PASSWORD");
+	}
+	else if(pwd.length < 5 || pwd.length > 8)
+	{
+	alert("Password min and max length is 6.");
+	}
+	}	
+	function clearfun()
+	{
+	document.getElementById("usname").value="";
+	document.getElementById("pwd1").value="";
+	}	
+	</script>
+</head>
+
+<body>
+<div id="mainbody">
+      <div id="wrapper">
+	  <div id="header" style="background-image:url(JIMS-PGDM-admission.jpg); width:100%;">
+	    <div id="header1-hgt">
+	   	<div class="row bg-dark text-white">
+            <div class="col-sm-3">
+            <iframe src=			"https://free.timeanddate.com/clock/i7r3rfci/n44/fn5/fs16/fcf00/tct/pct/ftb/pa8/tt0/tw1/th1/ta1/tb2" frameborder="0" width="285" height="34" allowtransparency="true"></iframe>  
+			</div>
+            <div class="col-sm-5">
+            <span style="font-size:15px; font-weight:bold; margin-left:300px;"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; info@jimsindia.org </span>
+            </div>
+            <div class="col-sm-4">
+                <span style="font-size:15px; font-weight:bold; margin-left:250px;"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp; Contact No.:-</span>&nbsp;<span style="font-size:15px; font-weight:bold;">9820234321</span>
+            </div>
+        </div>
+		
+		<a href="https://www.jimsindia.org/" target="_blank"><img src="logo.jfif" style="width:100px;"></a>	
+		<marquee behavior="scroll" direction="left"><h1><strong><font color="#8CD1FF" face="Arial Black">Jagan Institute Of Management Studies</font></strong></h1></marquee>
+			<div class="menu">
+	  		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    	 <span class="navbar-toggler-icon"></span>
+  		</button>
+ 			<div class="btn-group btn-group-md">
+  		 <button style="background-color:#8CD1FF; color:#000000" type="button" class="btn btn-primary dropdown-toogle" data-toggle="dropdown">About Us</button>
+		      <div class="dropdown-menu">
+			  	<a class="dropdown-item" href="#">The Society</a>
+			  	<a class="dropdown-item" href="#">The Institute</a>
+				<a class="dropdown-item" href="#">Vision and Mission</a>
+				<a class="dropdown-item" href="#">Chairman's Message</a>
+				<a class="dropdown-item" href="#">Director's Message</a>
+			  </div>
+			  </div>
+			  <div class="btn-group btn-group-md">
+   		 <button style="background-color:#8CD1FF;  color:#000000" type="button" class="btn btn-primary dropdown-toogle"  data-toggle="dropdown">Programmes</button>
+		 		<div class="dropdown-menu">
+				 	<a class="dropdown-item" href="mca.html" target="_blank">Masters of Computer Applications</a>
+					<a class="dropdown-item" href="bca.html" target="_blank">Bachelors of Computer Applications</a>
+					<a class="dropdown-item" href="bba.html" target="_blank">Bachelors of Business Administration</a>
+				</div>
+				</div>	
+    	 		<div class="btn-group btn-group-md">
+   		 <button type="button" style="background-color:#8CD1FF; color:#000000" class="btn btn-primary dropdown-toogle" data-toggle="dropdown">Admissions</button>
+		 		<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Admission Procedure</a>
+					<a class="dropdown-item" href="#">Fee Structure</a>
+					<a class="dropdown-item" href="#">Admission Brochure</a>
+					<a class="dropdown-item" href="#">Apply Online</a>
+					<a class="dropdown-item" href="#">JIMS Ranking</a>
+					<a class="dropdown-item" href="#">Send Query/Feedback</a>
+					<a class="dropdown-item" href="#">Track your Application</a>					
+				</div>
+				</div>	
+				<div class="btn-group btn-group-md">
+		 <button type="button" class="btn btn-primary dropdown-toogle" style="background-color:#8CD1FF; color:#000000" data-toggle="dropdown">Faculty</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Core Faculty</a>
+					<a class="dropdown-item" href="#">Visiting Faculty</a>
+				</div>
+				</div>
+				<div class="btn-group btn-group-md">	
+		 <button type="button" class="btn btn-primary dropdown-toogle" data-toggle="dropdown" style="background-color:#8CD1FF; color:#000000">Placement</button>
+		 		<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Batch Profile</a>
+					<a class="dropdown-item" href="#">Placement Record</a>
+					<a class="dropdown-item" href="#">Placement Highlights</a>
+					<a class="dropdown-item" href="#">Summer Internship Records</a>
+					<a class="dropdown-item" href="#">Student Speak</a>
+				</div>
+				</div>		
+				<div class="btn-group btn-group-md">	
+		 <button type="button" style="background-color:#8CD1FF; color:#000000" class="btn btn-primary dropdown-toogle" data-toggle="dropdown">Student Corner</button>
+		 		<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Activities</a>
+					<a class="dropdown-item" href="#">JIMS Clubs</a>
+				</div>
+				</div>	
+				<div class="btn-group btn-group-md">		
+		 <button type="button" class="btn btn-primary" style="background-color:#8CD1FF; color:#000000">News and Events</button>
+		 &nbsp;&nbsp;&nbsp;&nbsp;
+		 <button style="background-color:#8CD1FF; color:#000000" type="button" class="btn btn-primary">Alumni</button>
+		 </div>
+</div>
+				</div></div>
+				
+		<div id="centre">
+	      <div class="left bg-dark">
+		  <div class="info">
+		  <br><br>
+			<ul style="margin-left:15px;margin-right:20px; height:80px; width:285px; background-color:#8CD1FF; ">
+			     <li>&nbsp;&nbsp;<i class="fa fa-info" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;JIMS Rohini Contact Info</li>
+				 <li>&nbsp;&nbsp;<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;+91-9871097501</li>
+				 <li>&nbsp;&nbsp;<i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;info@jimsindia.org</li>
+			</ul>
+		 </div>
+		 <br>>br>
+			<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <form onSubmit="event.preventDefault()" class="box">
+                    <center><h1 class="text-body"><b><i>Login Portal</i></b></h1></center>
+                    <p class="text-body">&nbsp;&nbsp; Please enter your login and password details</p> 
+						<input type="text" id="usname" name="name" placeholder="Username"> 
+						<input type="password" id="pwd1" name="" placeholder="Password">
+						<br>
+					 	<a class="forgot text-body" href="http://ec2-44-233-47-185.us-west-2.compute.amazonaws.com/login/forgot_password.php" target="_blank">&nbsp;&nbsp; Forgot password?</a> 
+						<br>
+						<input type="submit" name="" value="Login" href="http://ec2-44-233-47-185.us-west-2.compute.amazonaws.com/login/index.php" onClick="login()">
+						<input type="submit" onClick="clearfun()" value="Clear">
+						<div class="col-md-12">
+                        <ul class="social-network social-circle">
+                            <li><a href="https://www.facebook.com/JimsDelhi?sk=wall" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/JIMSRohini" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.jimsindia.org/" target="_blank" class="icoGoogle" title="Google +"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> 
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<div class="bg-dark">
+				<iframe width="300" height="350" src="https://www.youtube.com/embed/9UZfDijP1ew?start=15" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+		  </div>
+	      <div class="content bg-dark text-white">
+		  <h1><i><b><center>THE SOCIETY</center></b></i></h1>
+		  <p style="margin-left:2%; margin-right:2%">Jagannath Gupta Memorial Educational Society was set up in the memory of Late Shri Jagannath Gupta. It is registered under the Societies Registration Act, 1860 and is a not-for-profit society. Ever since its beginning, the Society has dedicated itself to the cause of providing quality education in various professional spheres. It set up its first educational institution, Jagan Institute of Management Studies, in 1993. Since then, the Society has gradually set up various educational institutions whose chronological order is as follows:</p>
+		  <ul type="disc">
+		  		<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagan Institute of Management Studies, Rohini</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagannath International Management School, Vasant Kunj</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagannath Gupta Institute of Engineering & Technology, Jaipur</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagan Institute of Management Studies, Jaipur</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;JIMS Engineering Management Technical Campus, Greater Noida</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagannath University, Jaipur</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagannath International Management School, Kalkaji</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagannath University, NCR</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;Jagannath Community College, Rohini</li>
+				</ul>
+				 <p style="margin-left:2%; margin-right:2%">In this manner the Society has achieved a complete integration in education offering opportunities to the students right from graduate level to Ph.D level. The Society is providing educational services mainly in the areas of management, information technology, engineering, architecture, law, journalism, fashion and information designing, physiotherapy etc. At present, the Society has a combined strength of more than 10000 students and more than 600 faculty members. All these educational institutions are duly approved and accredited by and affiliated to respective statutory bodies such as AICTE, UGC, AIU, NBA, State Governments, and the universities. These institutions are well known among all stakeholders for quality education, decent infrastructure, location and placements. These institutions are rated and ranked very high by various magazines, newspapers and industry associations.</p>
+
+		<p style="margin-left:2%; margin-right:2%">The Society has never ignored its social responsibility towards the Society. It has always been discharging its responsibility right from its inception in various ways such as abhiyuthan, Karmaarth, Sansad Adarsh Gram Yojna, Unnat Bharat Abhiyan etc. In recent years, the Society has been contributing substantially by actively participating in the Skill India Initiative of the Government of India. It encourages budding young entrepreneurs by providing consultancy services and seed capital. Its various institutions take part in Skill India Initiative of Govt. of India in Pradhan Mantri Kaushal Vikas Yojna and vocational programmes run by AICTE and UGC.</p>	
+		<br>
+			<div>
+			<img src="Untitled-2.jpg">
+			</div>			
+		  </div>
+	      <div class="right bg-dark text-white">
+		  		  	  <div class="single_service_title" >
+			  <br>
+			<a href="about_us.aspx" class=" active text-white" style="margin:6%;" style="color:#FFFFFF;"><i class="fa fa-angle-double-right" aria-hidden="true" style="color:#FFFFFF;"></i>&nbsp;&nbsp;&nbsp;&nbsp;The Society</a>
+	  </div>
+	  <div class="single_service_title">
+			<a href="institute.aspx" class="text-white"  style="margin:6%;"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;The Institute</a>
+	 </div>
+	 <div class="single_service_title">
+			<a href="our_vision.aspx" class="text-white"  style="margin:6%;"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Vision &amp; Mission</a>
+	 </div>
+	 <div class="single_service_title">
+		<a href="chairman_message.aspx" class="text-white"  style="margin:6%;"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Chairman's Message</a>
+	 </div>
+	 <div class="single_service_title">
+		<a href="director_message.aspx" class="text-white" style="margin:6%;"><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Director's Message</a>
+	 </div>
+	 <div class="single_service_title">
+		<a href="governing-board.aspx" class="text-white" style="margin:6%;"><i class="fa fa-angle-double-right"  aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Governing Board</a>
+ 	 </div>
+	 <div class="single_service_title">
+		<a href="advisoryboard.aspx" class="text-white" style="margin:6%;"><i class="fa fa-angle-double-right"   aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Academic Advisory Council</a>
+	 </div>
+	 <div class="single_service_title">
+		<a href="faculty.aspx" class="text-white" style="margin:6%;" style="color:#192F59"><i class="fa fa-angle-double-right"  aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Faculty</a></font>
+	 </div>
+	 <br>
+	  <table border="2" align="center" bgcolor="#8CD1FF" width="100%" style="background-color:#8CD1FF; margin-top:50px;">
+<tr>
+    <td>
+         <h4 align="center" style="color:#181818; font-size:25px"><strong><b><i>&nbsp;Admission Enquiry&nbsp;</i></b></strong></h4><center>
+		 <br>				   <label for="name"></label>	
+		                      <input type="text" id="name" name="name" placeholder="Name" size="20">
+          <br>
+		  <br> 
+		                      <label><input type="email" id="email" name="email" placeholder="Email" size="20"></label>
+         <br>
+		 <br>
+		 
+		                       <input type="phone" name="phone" placeholder="Mobile Number" size="20">
+         <br>
+		 <br>
+		
+		                       <input type="city" name="city" placeholder="City" size="20">
+			 <br>
+			 <br>
+		 <select name="Program Interested in">
+						<option>&nbsp; Program Interested In&nbsp; </option>
+						<option>BBA</option>
+						<option>BCA</option>
+						<option>MCA</option>
+
+		</select>		 
+		 <br>
+		 <br>
+		 						<input type="text" name="query" placeholder="Query" size="20" maxlength="20">
+					<br>
+					<br>					
+					
+			     				<input type="submit"  class="btn btn-info"  value="  Submit  " style="background-color:#000000;"></center>
+		<br>
+		</td>
+		</tr>
+		</table>	
+		<br><br>
+	  <div id="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.0338236542425!2d77.10715549905629!3d28.71853516513267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d014e7953d073%3A0xa1df99c8551f3812!2sJagan%20Institute%20of%20Management%20Studies%20-%20JIMS%20Rohini!5e0!3m2!1sen!2sus!4v1618946602835!5m2!1sen!2sus" width="290" height="200" allowfullscreen="" loading="lazy"></iframe>  
+	  </div> 
+	  </div> 
+	  
+	 <div class="jumbotron" class="container" style="margin-bottom:0px;">
+    	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+				<br>
+				<font color=" #427BFF">
+					<h6>Jagan Institute of Management Studies</h6>
+					<hr style="border-top:1px solid #CC0033">
+					<div class="footer_single_contact_info">
+						
+						<p>3, Institutional Area, Sector-5, Rohini (Near Rithala Metro Station), Delhi-110085.</p></font>
+					</div>
+					<div class="footer_single_contact_info">
+					
+						<a href="tel:+9145184000">+91 45184000 / 01 / 02</a>
+					</div>
+					<div class="footer_single_contact_info">
+						
+						<a href="fax:+9145184032">+91 45184032</a>
+					</div>
+					<div class="footer_single_contact_info">
+						
+						<a href="/cdn-cgi/l/email-protection#7b1a1f16120808121415083b1112160812151f121a5514091c"><span class="__cf_email__" data-cfemail="1b7a7f76726868727475685b7172766872757f727a3574697c">admissions@jimsindia.org</span></a>
+					</div>
+					<div class="footer_single_contact_info">
+						
+						<a href="https://www.jimsindia.org">www.jimsindia.org</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<br><font color=" #427BFF">
+					<h6>Quick links</h6></font>
+					<hr style="border-top:1px solid #CC0033">
+					<ul class="menu-item">
+					<li><a href="https://www.jimsindia.org/mandatory_disclosure.aspx" title="Management Institute in Delhi/NCR" target="_blank">Mandatory Disclosure</a></li>
+					<li><a href="https://www.jimsindia.org/NIRF-Prescribed-Formats.aspx" title="NIRF Prescribed Formats" target="_blank">NIRF Prescribed Formats</a></li>
+					<li><a href="https://www.jimsindia.org/naac.aspx" title="NIRF Prescribed Formats" target="_blank">NAAC</a></li>
+					<li><a href="https://www.jimsindia.org/Documents/ARI-C-32855.pdf" target="_blank">ARIIA Form</a></li>
+					<li><a href="https://www.jimsindia.org/policies-procedures.aspx" target="_blank">Policies and Procedures</a></li>
+					<li><a href="https://www.jimsindia.org/Academic-Calender.aspx" target="_blank">Academic Calender</a></li>
+					<li><a href="https://www.jimsindia.org/Finance-Documents.aspx" target="_blank">Finance Documents</a></li>
+					<li><a href="https://www.jimsindia.org/MOU-between-AICTE-and-Youth4work.aspx" target="_blank">MOU between AICTE and Youth4work</a>
+					</ul>
+			</div>
+			<div class="col-md-3">
+			<br>
+			<h6>&nbsp;</h6>
+			<hr style="border-top:1px solid #CC0033">
+				<ul class="menu-item">
+				<li><a href="https://www.jimsindia.org/jims-top-mba-colleges.aspx" target="_blank">JIMS Ranking</a></li>
+				<li><a href="https://www.jimsindia.org/jims-in-news.aspx" target="_blank">JIMS in News</a></li>
+				<li><a href="https://www.jimsindia.org/mdp-calendar.aspx" target="_blank">MDP Calender</a></li>
+				<li><a href="https://www.jimsindia.org/8i_journal.aspx" target="_blank">JIMS 8i - (IJICCT)</a></li>
+				<li><a href="https://www.jimsindia.org/8M_journal.aspx" target="_blank">Newsletters</a></li>
+				<li><a href="https://www.jimsindia.org/applyonline.aspx" target="_blank">Apply Online</a></li>
+				<li><a href="https://www.jimsindia.org/studentquery.aspx" target="_blank">Send your queries</a></li>
+				</ul>
+		  </div>	
+			<div class="col-md-3">
+			<br>
+			<h6>&nbsp;</h6>
+			<hr style="border-top:1px solid #CC0033">
+				<ul class="menu-item">
+				<li><a href="https://www.jimsindia.org/Examination.aspx" target="_blank">Examination </a></li>
+				<li><a href="https://www.jimsindia.org/jimslogin.aspx" target="_blank">Login</a></li>
+				<li><a href="https://www.jimsindia.org/Online-Fee-Payment.aspx" target="_blank">Online Fee Payment</a></li>
+				<li><a href="https://www.jimsindia.org/careeratjims.aspx" target="_blank">Career @ JIMS</a></li>
+				<li><a href="http://jimselite.org/ogrs/public/login" target="_blank">Online Grievances Redressal System</a></li>
+				</ul>
+			</div>
+  			<div class="col-md-12">
+				<hr style="border-top:1px solid #CC0033">
+				<p align="left"><font color=" #427BFF">
+				<span>Copyright © 2019 All Rights Reserved with JIMS</span></font> &emsp;
+				<a href="Terms-and-Conditions.aspx" class="color-grey">Terms &amp; Conditions</a> &emsp;
+				<a href="Privacy_policy.aspx" class="color-grey">Privacy Policy</a>
+			</div>
+  </div>
+
+	  </div>
+      </div>
+</div>
+</body>
+</html>
